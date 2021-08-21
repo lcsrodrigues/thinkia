@@ -1,0 +1,45 @@
+@media screen and (max-width: 425px) {
+    .header {
+        width: 100%;
+        display: flex;
+        padding: 10px 0;
+
+        .logo {
+            width: 50%;
+            height: 90px;
+            background-image: url(../../public/logo-01.jpg);
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center;
+        }
+        .navigation {
+            width: 50%;
+            height: 110px;
+            background: #fff;
+            background-image: url(../../public/menu-01.png);
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position-x: 90%;
+            background-position-y: center;
+        }
+        .menu {
+            position: absolute;
+            top: 130px;
+            width: 100%;
+            display: block;
+            background: #f4f4f4;
+            padding: 10px;
+            cursor: pointer;
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+
+                li {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
