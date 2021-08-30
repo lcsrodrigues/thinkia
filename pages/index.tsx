@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/header'
 import Section01 from '../components/section01'
+import Section02 from '../components/section02'
+import Section03 from '../components/section03'
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
       <Header />
       <Section01 />
+      <Section02 />
+      <Section03 />
     </div>
   )
 }
