@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../card/card';
+import { CardModel01 } from '../card/card';
 import style from './style.module.scss';
 
 export default function Section02() {
@@ -9,12 +9,12 @@ export default function Section02() {
                 <span>Título</span>
             </div>
             <div className={style.boxCard}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <CardModel01 pathImg={"/logo-parceiro-01.png"} />
+                <CardModel01 pathImg={"/logo-parceiro-02.png"} />
+                <CardModel01 pathImg={"/logo-parceiro-03.png"} />
+                <CardModel01 pathImg={"/logo-parceiro-04.png"} />
+                <CardModel01 pathImg={"/logo-parceiro-05.png"} />
+                <CardModel01 pathImg={"/logo-parceiro-06.png"} />
             </div>
         </div>
     )
