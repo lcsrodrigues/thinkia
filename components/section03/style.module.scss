@@ -1,7 +1,6 @@
 @media screen and (min-width: 320px) {
     .section {
         width: 100%;
-        height: calc(100vh - 260px);
         background-image: url(../../public/background-04.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -11,6 +10,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        padding:0 0 50px 0;
         .divOpacity {
             opacity: 0.65;
             background-color: rgb(17, 17, 17);
