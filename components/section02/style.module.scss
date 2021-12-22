@@ -5,6 +5,7 @@
         flex-direction: column;
         align-items: center;
         padding: 100px 0;
+        height: 100vh;
         .title {
             width: 100%;
             font-size: 2rem;
@@ -20,6 +21,7 @@
         }
     }
 }
+
 @media screen and (min-width: 768px) {
     .section {
         width: 100%;

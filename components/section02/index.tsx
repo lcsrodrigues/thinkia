@@ -4,17 +4,17 @@ import style from './style.module.scss';
 
 export default function Section02() {
     return (
-        <div className={style.section}>
+        <div className={style.section} id="empresa">
             <div className={style.title}>
-                <span>Título</span>
+                <span>NOSSOS PARCEIROS</span>
             </div>
             <div className={style.boxCard}>
-                <CardModel01 pathImg={"/logo-parceiro-01.png"} />
-                <CardModel01 pathImg={"/logo-parceiro-02.png"} />
-                <CardModel01 pathImg={"/logo-parceiro-03.png"} />
-                <CardModel01 pathImg={"/logo-parceiro-04.png"} />
-                <CardModel01 pathImg={"/logo-parceiro-05.png"} />
-                <CardModel01 pathImg={"/logo-parceiro-06.png"} />
+                <CardModel01 pathImg={"/OneTrustLogo.png"} />
+                <CardModel01 pathImg={"/huawei.png"} />
+                <CardModel01 pathImg={"/senha-segura.png"} />
+                <CardModel01 pathImg={"/zoom.png"} />
+                <CardModel01 pathImg={"/veeam.png"} />
+                <CardModel01 pathImg={"/ruckus.png"} />
             </div>
         </div>
     )

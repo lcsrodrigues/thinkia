@@ -4,7 +4,7 @@ import style from './style.module.scss';
 
 export default function Section03() {
     return (
-        <div className={style.section}>
+        <div className={style.section} id="solucoes">
             <div className={style.divOpacity}></div>
             <div className={style.container}>
                 <div className={style.title}>

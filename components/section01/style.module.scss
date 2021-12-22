@@ -8,7 +8,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding:0 0 50px 0;
+        padding: 0 0 50px 0;
+        height: calc(100vh - 90px);
         .title {
             width: 100%;
             font-size: 2rem;
@@ -33,6 +34,7 @@
         }
     }
 }
+
 @media screen and (min-width: 768px) {
     .section {
         width: 100%;
