@@ -1,8 +1,9 @@
 @media screen and (min-width: 320px) {
     .cardModel01 {
-        // width: 100px;
+        width: 100%;
         height: 70px;
-        margin: 3px;
+        margin: 10px 3px;
+        text-align: center;
         img {
             // width: 100px;
             height: 70px;
@@ -34,6 +35,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .cardModel01 {
+        width: auto;
+        margin: 0;
+    }
     .cardModel02 {
         width: calc(50% - 20px);
     }
