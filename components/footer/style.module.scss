@@ -1,12 +1,13 @@
+@import '../helpers/helpers.module.scss';
 @media screen and (min-width: 320px) {
     .section {
         width: 100%;
-        background-color: #333333;
+        background-color: #414141;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
-        padding: 0 0 50px 0;
+        // padding: 0 0 50px 0;
         .title {
             width: calc(100% - 20px);
             font-size: 2rem;
@@ -42,12 +43,39 @@
                 color: #fff;
             }
         }
-    }
-}
-@media screen and (min-width: 768px) {
-    .section {
-        width: 100%;
         .container {
+            padding: 10px;
+            justify-content: space-around;
+            .sideLeft {
+                .cheap {
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: space-around;
+                        li {
+                            .card {
+                                display: block;
+                                padding: 10px 0;
+                                cursor: pointer;
+                                img {
+                                    width: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sideRight {
+                width: 100%;
+                .title {
+                    text-align: center;
+                }
+                .text {
+                    text-align: justify;
+                }
+            }
             .title {
                 span {
                     font-size: 30px;
@@ -55,6 +83,91 @@
             }
             .text {
                 text-align: left;
+            }
+        }
+        .footer {
+            background-color: $cor-complemento-secundario;
+            text-align: center;
+            width: 100%;
+            .footerLogo {
+                img {
+                    display: none;
+                }
+            }
+            .footerContent {
+                span {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        width: 100%;
+        .container {
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            .sideLeft {
+                width: 15%;
+                .cheap {
+                    ul {
+                        align-items: baseline;
+                        flex-direction: column;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        li {
+                            .card {
+                                display: block;
+                                padding: 15px 0;
+                                cursor: pointer;
+                                img {
+                                    width: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sideRight {
+                width: 100%;
+                .title {
+                    text-align: center;
+                }
+                .text {
+                    text-align: center;
+                }
+            }
+            .title {
+                span {
+                    font-size: 30px;
+                }
+            }
+            .text {
+                text-align: left;
+            }
+        }
+        .footer {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .footerLogo {
+                img {
+                    display: block;
+                    width: 100px;
+                }
+            }
+            .footerContent {
+                span {
+                    color: #fff;
+                    font-size: 14px;
+                }
             }
         }
     }

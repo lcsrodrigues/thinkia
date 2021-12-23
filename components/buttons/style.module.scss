@@ -1,11 +1,16 @@
-.button{
-    background-color: #ff0000;
-    color:#fff;
+@import '../helpers/helpers.module.scss';
+.button {
+    background-color: $cor-primaria;
+    color: #fff;
     text-transform: uppercase;
-    width:150px;
-    padding:10px;
+    width: 150px;
+    padding: 10px;
     text-align: center;
     border-radius: 20px;
     font-weight: 500;
-    margin:15px 0;
+    margin: 15px 0;
+    cursor: pointer;
+    &:hover {
+        background-color: $cor-complemento-primario;
+    }
 }

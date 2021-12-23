@@ -15,7 +15,7 @@ export default function Header() {
         <>
             <nav className={style.header} id="topo">
                 <div className={style.logo}>
-                    <img src={"/logo-02.png"}></img>
+                    <img src={"/logo-01.png"}></img>
                 </div>
                 <div className={style.btnMenu} onClick={showOrHideMenu}></div>
                 <div className={style.navigation}>
@@ -33,9 +33,15 @@ export default function Header() {
                 </div>
                 <div className={style.menu} style={isVisibled ? { display: 'block' } : { display: 'none' }}>
                     <ul>
-                        <li>Empresa</li>
-                        <li>Soluções</li>
-                        <li>Contato</li>
+                        <li>
+                            <Link to="empresa" spy={true} smooth={true} duration={1000}>Empresa</Link>
+                        </li>
+                        <li>
+                            <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
+                        </li>
+                        <li>
+                            <Link to="contato" spy={true} smooth={true} duration={1000}>Contato</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
