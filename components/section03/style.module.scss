@@ -68,6 +68,11 @@
 @media screen and (min-width: 768px) {
     .section {
         width: 100%;
+        .actions {
+            input {
+                width: calc(50% - 20px)!important;
+            }
+        }
         .container {
             .title {
                 span {
