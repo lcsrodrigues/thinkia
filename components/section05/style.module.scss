@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+    .section {
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 0 0 50px 0;
+
+        .title {
+            width: calc(100% - 20px);
+            font-size: 2rem;
+            color: #fff;
+            margin: 70px 0 0 20px;
+            text-align: center;
+        }
+        .text {
+            width: calc(100% - 40px);
+            font-size: 1.125rem;
+            color: #777777;
+            margin: 10px 20px 0 20px;
+            text-align: center;
+        }
+        .actions {
+            width: 100%;
+            color: #fff;
+            margin-top: 70px;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+
+            input {
+                width: calc(100% - 20px);
+                margin: 5px 10px;
+                height: 50px;
+                padding: 0 25px;
+                font-size: 16px;
+                letter-spacing: 0.04em;
+                font-weight: 400;
+                border: none;
+                border-radius: 10px;
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .section {
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 0 0 50px 0;
+        .title {
+            width: calc(100% - 20px);
+            font-size: 2rem;
+            color: #fff;
+            margin: 70px 0 0 20px;
+            text-align: center;
+        }
+        .text {
+            width: calc(100% - 40px);
+            font-size: 1.125rem;
+            color: #777777;
+            margin: 10px 20px 0 20px;
+            text-align: center;
+        }
+        .actions {
+            width: 100%;
+            color: #fff;
+            margin-top: 70px;
+            display: block;
+            text-align: center;
+            .formInput {
+                display: flex;
+                input {
+                    width: calc(50% - 20px);
+                    margin: 5px 10px;
+                    height: 50px;
+                    padding: 0 25px;
+                    font-size: 16px;
+                    letter-spacing: 0.04em;
+                    font-weight: 400;
+                    border: none;
+                    border-radius: 10px;
+                    background: #000;
+                    color: #fff;
+                }
+            }
+            .formBtn {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}

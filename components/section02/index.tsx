@@ -4,7 +4,7 @@ import style from './style.module.scss';
 
 export default function Section02() {
     return (
-        <div className={style.section}>
+        <div id="empresa" className={style.section}>
             <div className={style.title}>
                 <span>Título</span>
             </div>

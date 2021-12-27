@@ -4,7 +4,7 @@ import style from './style.module.scss';
 
 export default function Section04() {
     return (
-        <div className={style.section}>
+        <div id="contato" className={style.section}>
             <div className={style.title}>
                 <span><strong>Lorem Ipsum Dolor Sit Amet</strong></span>
             </div>

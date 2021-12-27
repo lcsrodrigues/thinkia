@@ -1,0 +1,14 @@
+.btnTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 9999;
+    margin: 0 10px 10px 0;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+}

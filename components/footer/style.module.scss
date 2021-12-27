@@ -1,61 +1,45 @@
 @media screen and (min-width: 320px) {
-    .section {
+    .footer {
         width: 100%;
-        background-color: #333333;
+        background-color: #4e4e4e;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
-        padding: 0 0 50px 0;
-        .title {
-            width: calc(100% - 20px);
-            font-size: 2rem;
-            color: #fff;
-            margin: 70px 0 0 20px;
-            text-align: center;
+        padding: 0 0 0 0;
+
+        .redessociais {
+            align-items: center;
+            background-color: #4e4e4e;
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+
+            img {
+                width: 70px;
+                height: 70px;
+                padding: 0 0 0 20px;
+                cursor: pointer;
+            }
+            .imgIn {
+                width: 92px;
+                height: 92px;
+                padding: 0 0 0 20px;
+                cursor: pointer;
+            }
         }
-        .text {
-            width: calc(100% - 40px);
-            font-size: 1.125rem;
-            color: #777777;
-            margin: 10px 20px 0 20px;
+        .informacoes {
+            color: #ffffff;
             text-align: center;
-        }
-        .actions {
-            width: 100%;
-            color: #fff;
-            margin-top: 70px;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            input {
-                width: calc(100% - 20px);
-                margin: 5px 10px;
-                height: 50px;
-                padding: 0 25px;
-                font-size: 16px;
-                letter-spacing: 0.04em;
-                font-weight: 400;
-                border: none;
-                border-radius: 10px;
-                background: #000;
-                color: #fff;
-            }
+            justify-content: flex-end;
+            padding: 0 0 20px 0;
         }
     }
 }
 @media screen and (min-width: 768px) {
-    .section {
+    .footer {
         width: 100%;
-        .container {
-            .title {
-                span {
-                    font-size: 30px;
-                }
-            }
-            .text {
-                text-align: left;
-            }
-        }
     }
 }

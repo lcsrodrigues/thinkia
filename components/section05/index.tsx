@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../buttons';
 import style from './style.module.scss';
 
-export default function Footer() {
+export default function Section05() {
     return (
         <div className={style.section}>
             <div className={style.divOpacity}></div>
@@ -15,9 +15,13 @@ export default function Footer() {
                 </div>
 
                 <div className={style.actions}>
-                    <input id={"iptNome"} placeholder={"Seu nome aqui"} type={"text"} />
-                    <input id={"iptEmail"} placeholder={"Seu e-mail aqui"} type={"email"} />
-                    <Button text={"Submit"} />
+                    <div className={style.formInput}>
+                        <input id={"iptNome"} placeholder={"Seu nome aqui"} type={"text"} />
+                        <input id={"iptEmail"} placeholder={"Seu e-mail aqui"} type={"email"} />
+                    </div>
+                    <div className={style.formBtn}>
+                        <Button text={"Submit"} />
+                    </div>
                 </div>
 
             </div>

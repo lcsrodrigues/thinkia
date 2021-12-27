@@ -4,7 +4,7 @@ import style from './style.module.scss';
 
 export default function Section03() {
     return (
-        <div className={style.section}>
+        <div id="solucoes" className={style.section}>
             <div className={style.divOpacity}></div>
             <div className={style.container}>
                 <div className={style.title}>
@@ -15,6 +15,8 @@ export default function Section03() {
                 </div>
                 <div className={style.actions}>
                     <input id={"iptEmail"} placeholder={"Seu e-mail aqui"} type={"email"} />
+                </div>
+                <div className={style.formBtn} >
                     <Button text={"Submit"} />
                 </div>
             </div>
