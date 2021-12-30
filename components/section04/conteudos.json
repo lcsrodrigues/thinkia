@@ -1,0 +1,25 @@
+[{
+        "pathUrl": "/001-smartphone-call.png",
+        "description": "Otimização de recursos de processamento e armazanamento, estes são alguns dos desafios que apoiamos a sua empresa durante a implantação ou expansão de seu Datacenter. Soluções de rede e Projetos de implementação de servidores e Storages."
+    },
+    {
+        "pathUrl": "/002-desktop.png",
+        "description": "Atuamos sobre as múltiplas camadas de defesa, oferecendo soluções de cyber segurança garantido que os recursos críticos sejam protegidos por nossas soluçoes inovadoras. Atuamos em Projetos de implantação de Plataformas de Segurança de redes, dados, incluindo serviços gerenciados com monitoramento / S.O.C."
+    },
+    {
+        "pathUrl": "/003-cloud-computing.png",
+        "description": "Obtenha os melhores recursos para hospedagem de aplicações na nuvem, armazenamento de dados e soluções de Backup / Disaster Recovery. Atuamos em projetos relacionados à Docker, Kube, nuvem pública, privada e híbrida em ambientes onpremise."
+    },
+    {
+        "pathUrl": "/004-setting.png",
+        "description": "Consultoria para desenvolvimento de projetos nas áreas de infraestrutura de datacenter, segurança, redes, virtualização e cloud; Acompanhamento de projetos de TI, desde sua implementação inicial, até o deploy final e entrada em produção;"
+    },
+    {
+        "pathUrl": "/005-web-programming.png",
+        "description": "Desenvolvimento de soluções e intranet's utilizando o ecossistema Microsoft como SharePoint, Power Automate, Power BI, Power apps; Desenvolvimento de soluções Sales Force."
+    },
+    {
+        "pathUrl": "/006-fingerprint.png",
+        "description": "Conformidade com LGPD, compliance e avaliações de riscos. Operacionalização de programas de privacidade, segurança e governança de dados."
+    }
+]

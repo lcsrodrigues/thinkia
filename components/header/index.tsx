@@ -24,10 +24,13 @@ export default function Header() {
                             <Link to="empresa" spy={true} smooth={true} duration={1000}>Empresa</Link>
                         </li>
                         <li>
-                            <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
+                            <Link to="parceiros" spy={true} smooth={true} duration={1000}>Parceiros de Negócios</Link>
                         </li>
                         <li>
                             <Link to="contato" spy={true} smooth={true} duration={1000}>Contato</Link>
+                        </li>
+                        <li>
+                            <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
                         </li>
                     </ul>
                 </div>
@@ -37,10 +40,13 @@ export default function Header() {
                             <Link to="empresa" spy={true} smooth={true} duration={1000}>Empresa</Link>
                         </li>
                         <li>
-                            <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
+                            <Link to="parceiros" spy={true} smooth={true} duration={1000}>Parceiros de Negócios</Link>
                         </li>
                         <li>
                             <Link to="contato" spy={true} smooth={true} duration={1000}>Contato</Link>
+                        </li>
+                        <li>
+                            <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
                         </li>
                     </ul>
                 </div>

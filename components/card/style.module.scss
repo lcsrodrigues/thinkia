@@ -6,7 +6,7 @@
         text-align: center;
         img {
             // width: 100px;
-            height: 70px;
+            height: 55px;
             opacity: 0.3;
             transition: 0.4s;
             &:hover {
@@ -40,6 +40,10 @@
         margin: 0;
     }
     .cardModel02 {
-        width: calc(50% - 20px);
+        width: calc(33.33% - 20px);
+        height: 300px;
+        p {
+            text-align: justify;
+        }
     }
 }

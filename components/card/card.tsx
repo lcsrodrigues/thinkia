@@ -8,14 +8,14 @@ export function CardModel01({ pathImg }) {
     )
 }
 
-export function CardModel02({ pathImg }) {
+export function CardModel02({ pathImg, description }) {
     return (
         <div className={style.cardModel02}>
             <div className={style.iconImage}>
                 <img src={pathImg} />
             </div>
             <div className={style.description}>
-                <p>Lorem Ipsum Dolor Sit Amet</p>
+                <p>{description}</p>
             </div>
         </div>
     )

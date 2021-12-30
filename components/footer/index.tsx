@@ -30,6 +30,11 @@ export default function Footer() {
                                     <img src='/instagram.png' alt="instagram" />
                                 </div>
                             </li>
+                            <li>
+                                <div className={style.card}>
+                                    <img src='/whatsapp.png' alt="whatsapp" />
+                                </div>
+                            </li>
                         </ul>
                     </div>
 
