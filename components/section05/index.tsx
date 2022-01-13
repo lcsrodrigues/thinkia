@@ -10,7 +10,7 @@ export default function Section05() {
                 <span><strong>ALGUMA PERGUNTA? FALE CONOSCO</strong></span>
             </div>
             <div className={style.resume}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet rhoncus nulla. Cras massa urna, luctus consectetur sem a, tincidunt venenatis elit. Suspendisse potenti. Nunc laoreet in justo et porttitor. Quisque ac rutrum sapien, sit amet mattis diam. Integer id felis iaculis, vulputate est ut, egestas mi. Sed in accumsan nulla, eu sagittis felis.</p>
+                <p>Nossos departamentos estão a sua disposição para questões comerciais assim como novos projetos e suporte técnico. Utilize um dos nossos canais abaixo e teremos prazer em atendê-lo! </p>
             </div>
             <div className={style.boxCard}>
                 <CardModel03 title={"FALE CONOSCO"} description={"(021) 3078-2222"} pathImg={"/phone-call.png"} />
