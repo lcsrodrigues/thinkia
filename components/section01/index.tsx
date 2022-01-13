@@ -9,11 +9,14 @@ export default function Section01() {
                 <span>EMPRESA</span>
             </div>
             <div className={style.text}>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum, urna volutpat consectetur varius, sapien lorem mollis massa, et pellentesque ante justo eget eros. Sed blandit porttitor tempus. Sed quis gravida libero, at sagittis felis. Nam vel accumsan ex. Quisque libero urna, consectetur a varius in, imperdiet id nunc.</span>
+                <p>Empresa especializada em Segurança da Informação e inteligência digital, constituída em 2018, por profissionais dedicados à Tecnologia. Sempre à procura de parcerias sólidas, com players e soluções líderes de mercado, para oferecer o melhor, com inovação, tecnologia e segurança.</p>
+                <p>Nossa missão é ajudar nossos clientes a resolver suas dores, com segurança e eficiência, e ser uma empresa sólida e reconhecida em serviços e plataformas inovadoras.</p>
+                <p>Sempre atualizados no mercado, estamos constantemente desenvolvendo projetos e soluções em TI para empresas de segmentos diversos. Com processos de resposta a incidentes e continuidade de negócios, gestão de riscos e vulnerabilidades, proteção de perímetros on premises e cloud, zero trust e desenvolvimento seguro.</p>
+                <p>A ThinkIA tem como planos para o futuro se tornar referência no mercado de inteligência, proteção digital de dados com soluções próprias e parceiros qualificados.</p>
             </div>
-            <div className={style.actions}>
+            {/* <div className={style.actions}>
                 <Button text={"Submit"}/>
-            </div>
+            </div> */}
         </div>
     )
 }

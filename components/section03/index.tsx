@@ -11,11 +11,11 @@ export default function Section03() {
                     <span>CONTATO</span>
                 </div>
                 <div className={style.text}>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum, urna volutpat consectetur varius, sapien lorem mollis massa.</span>
+                    <span>Entre em contato conosco para receber informações detalhadas das nossas soluções ou solicitar uma proposta.</span>
                 </div>
                 <div className={style.actions}>
                     <input id={"iptEmail"} placeholder={"Seu e-mail aqui"} type={"email"} />
-                    <Button text={"Submit"} />
+                    <Button text={"Enviar"} />
                 </div>
             </div>
         </div>

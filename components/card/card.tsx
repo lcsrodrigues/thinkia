@@ -19,4 +19,20 @@ export function CardModel02({ pathImg, description }) {
             </div>
         </div>
     )
+}    
+export function CardModel03({ pathImg, title, description}) {
+        return (
+        <div className={style.cardModel03}>
+           <div className={style.iconImage}>
+                <img src={pathImg} />
+            </div>
+            <div className={style.title}>
+                <p>{title}</p>
+            </div>
+            <div className={style.description}>
+                <p>{description}</p>
+            </div>
+            </div>
+        )
+    
 }

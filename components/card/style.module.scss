@@ -32,9 +32,50 @@
             text-align: center;
         }
     }
+
+    .cardModel03 {
+        width: calc(50% - 40px);
+        margin: 10px;
+        padding: 30px;
+        text-align: center;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        .iconImage {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .description {
+            text-align: center;
+        }
+        .title {
+            text-align: center;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
+    .cardModel01 {
+        width: auto;
+        margin: 0;
+    }
+    .cardModel02 {
+        width: calc(50% - 20px);
+        height: 350px;
+        p {
+            text-align: justify;
+        }
+    }
+
+    .cardModel03 {
+        width: calc(25% - 20px);
+        height: 200px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .cardModel01 {
         width: auto;
         margin: 0;
@@ -45,5 +86,10 @@
         p {
             text-align: justify;
         }
+    }
+    .cardModel03 {
+        width: calc(25% - 20px);
+        height: 200px;
+        text-align: center;
     }
 }

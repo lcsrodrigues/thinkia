@@ -4,6 +4,7 @@ import Section01 from '../components/section01'
 import Section02 from '../components/section02'
 import Section03 from '../components/section03'
 import Section04 from '../components/section04'
+import Section05 from '../components/section05'
 import Footer from '../components/footer'
 import BackToTop from '../components/backToTop/backToTop'
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Section02 />
       <Section03 />
       <Section04 />
+      <Section05 />
       <BackToTop />
       <Footer />
     </div>
