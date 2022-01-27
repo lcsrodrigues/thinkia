@@ -7,8 +7,23 @@ import Section04 from '../components/section04'
 import Section05 from '../components/section05'
 import Footer from '../components/footer'
 import BackToTop from '../components/backToTop/backToTop'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+
+  // const [visibleSection01, setVisibleSection01] = useState(false);
+
+  // useEffect(() => {
+  //   function handleScroll() {
+  //     if (document.documentElement.scrollTop > 720) {
+  //       setVisibleSection01(true);
+  //     }
+  //   }
+
+  //   handleScroll();
+
+  // });
+
   return (
     <div>
       <Head>
