@@ -77,8 +77,12 @@
                 li {
                     margin: 10px 0;
                     text-transform: uppercase;
-                    & {
-                        cursor: pointer;
+                    cursor: pointer;
+                    &:hover {
+                        transform: rotateZ(10);
+                        border-bottom: 2px solid #9aaf42;
+                        transition-duration: 0.1s;
+                        transition-delay: 0.2s;
                     }
                 }
             }

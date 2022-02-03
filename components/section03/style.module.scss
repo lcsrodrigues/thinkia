@@ -1,7 +1,7 @@
 @media screen and (min-width: 320px) {
     .section {
         width: 100%;
-        background-image: url(../../public/background-04.jpeg);
+        background-image: url(../../public/thinkia-img-10.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -12,6 +12,7 @@
         position: relative;
         padding: 0 0 50px 0;
         height: 100vh;
+        border-top: 2px solid #8BA426;
         .divOpacity {
             opacity: 0.65;
             background-color: rgb(17, 17, 17);

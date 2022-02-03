@@ -58,7 +58,7 @@ export default function Footer() {
                     <img src='/logo-01.png' />
                 </div>
                 <div className={style.footerContent}>
-                    <span>ThinkIA Soluções em tecnologia  |   Todos os direitos reservados</span>
+                    <span>ThinkIA Soluções em Tecnologia  |   Todos os direitos reservados</span>
                 </div>
             </div>
         </div>

@@ -8,22 +8,23 @@ export function CardModel01({ pathImg }) {
     )
 }
 
-export function CardModel02({ pathImg, description }) {
+export function CardModel02({ pathImg, description, title }) {
     return (
         <div className={style.cardModel02}>
             <div className={style.iconImage}>
                 <img src={pathImg} />
+                <label>{title}</label>
             </div>
             <div className={style.description}>
                 <p>{description}</p>
             </div>
         </div>
     )
-}    
-export function CardModel03({ pathImg, title, description}) {
-        return (
+}
+export function CardModel03({ pathImg, title, description }) {
+    return (
         <div className={style.cardModel03}>
-           <div className={style.iconImage}>
+            <div className={style.iconImage}>
                 <img src={pathImg} />
             </div>
             <div className={style.title}>
@@ -32,7 +33,7 @@ export function CardModel03({ pathImg, title, description}) {
             <div className={style.description}>
                 <p>{description}</p>
             </div>
-            </div>
-        )
-    
+        </div>
+    )
+
 }

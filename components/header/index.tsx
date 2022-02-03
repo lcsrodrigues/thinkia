@@ -21,9 +21,6 @@ export default function Header() {
                 <div className={style.navigation}>
                     <ul>
                         <li>
-                            <Link to="empresa" spy={true} smooth={true} duration={1000}>Empresa</Link>
-                        </li>
-                        <li>
                             <Link to="parceiros" spy={true} smooth={true} duration={1000}>Parceiros de Negócios</Link>
                         </li>
                         <li>
@@ -31,15 +28,15 @@ export default function Header() {
                         </li>
                         <li>
                             <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
+                        </li>
+                        <li>
+                            <Link to="faleConosco" spy={true} smooth={true} duration={1000}>Fale Conosco</Link>
                         </li>
                     </ul>
                 </div>
                 <div className={style.menu} style={isVisibled ? { display: 'block' } : { display: 'none' }}>
                     <ul>
                         <li>
-                            <Link to="empresa" spy={true} smooth={true} duration={1000}>Empresa</Link>
-                        </li>
-                        <li>
                             <Link to="parceiros" spy={true} smooth={true} duration={1000}>Parceiros de Negócios</Link>
                         </li>
                         <li>
@@ -47,6 +44,9 @@ export default function Header() {
                         </li>
                         <li>
                             <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
+                        </li>
+                        <li>
+                            <Link to="faleConosco" spy={true} smooth={true} duration={1000}>Fale Conosco</Link>
                         </li>
                     </ul>
                 </div>

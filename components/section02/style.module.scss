@@ -6,6 +6,7 @@
         align-items: center;
         padding: 100px 0;
         min-height: 100vh;
+        border-top: 2px solid #8BA426;
         .title {
             width: 100%;
             font-size: 2rem;
@@ -16,7 +17,7 @@
         .boxCard {
             width: 100%;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             flex-wrap: wrap;
         }
     }
@@ -28,5 +29,13 @@
 @media screen and (min-width: 768px) {
     .section {
         width: 100%;
+        .decor {
+            position: absolute;
+            left: 0;
+            background-color: #9aaf42;
+            width: 200px;
+            height: 20px;
+            top: 700px;
+        }
     }
 }
