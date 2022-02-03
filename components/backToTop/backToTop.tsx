@@ -10,14 +10,12 @@ export default function BackToTop() {
     useEffect(() => {
         function onScroll() {
             let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-            if (currentPosition > scrollTop) {
+            if (currentPosition > 0) {
                 // downscroll code
                 setScrolling(false);
-                console.log(currentPosition);
             } else {
                 // upscroll code
                 setScrolling(true);
-                console.log(currentPosition);
             }
             setScrollTop(currentPosition <= 0 ? 0 : currentPosition);
         }
