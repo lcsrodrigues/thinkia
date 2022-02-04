@@ -32,6 +32,9 @@ export default function Header() {
                         <li>
                             <Link to="faleConosco" spy={true} smooth={true} duration={1000}>Fale Conosco</Link>
                         </li>
+                        <li>
+                            <Link to="testemunhos" spy={true} smooth={true} duration={1000}>Testemunhos</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className={style.menu} style={isVisibled ? { display: 'block' } : { display: 'none' }}>
@@ -47,6 +50,9 @@ export default function Header() {
                         </li>
                         <li>
                             <Link to="faleConosco" spy={true} smooth={true} duration={1000}>Fale Conosco</Link>
+                        </li>
+                        <li>
+                            <Link to="testemunhos" spy={true} smooth={true} duration={1000}>Testemunhos</Link>
                         </li>
                     </ul>
                 </div>

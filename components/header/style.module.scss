@@ -75,11 +75,13 @@
                 justify-content: space-around;
                 align-items: center;
                 li {
+                    padding: 0 0 2px 5px;
                     margin: 10px 0;
                     text-transform: uppercase;
                     cursor: pointer;
+                    font-size: 12px;
+                    border-left: 2px solid #9aaf42;
                     &:hover {
-                        transform: rotateZ(10);
                         border-bottom: 2px solid #9aaf42;
                         transition-duration: 0.1s;
                         transition-delay: 0.2s;
@@ -89,6 +91,16 @@
         }
         .menu {
             display: none !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation {
+        ul {
+            li {
+                font-size: 16px!important;
+            }
         }
     }
 }

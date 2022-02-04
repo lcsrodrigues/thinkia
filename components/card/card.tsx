@@ -21,6 +21,7 @@ export function CardModel02({ pathImg, description, title }) {
         </div>
     )
 }
+
 export function CardModel03({ pathImg, title, description }) {
     return (
         <div className={style.cardModel03}>
@@ -35,5 +36,20 @@ export function CardModel03({ pathImg, title, description }) {
             </div>
         </div>
     )
+}
 
+export function CardModel04({ pathImg, title, description }) {
+    return (
+        <div className={style.cardModel04}>
+            <div className={style.perfil}>
+                <img src={pathImg} />
+            </div>
+            <div className={style.title}>
+                <p>{title}</p>
+            </div>
+            <div className={style.description}>
+                <p>{description}</p>
+            </div>
+        </div>
+    )
 }
