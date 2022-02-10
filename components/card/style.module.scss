@@ -65,6 +65,7 @@
         text-align: center;
         border: 1px solid #e5e5e5;
         border-radius: 5px;
+        box-shadow: 1px 0px 5px rgb(119, 119, 119);
         .perfil {
             img {
                 width: 100%;
@@ -73,6 +74,10 @@
         }
         .description {
             text-align: justify;
+        }
+        .signature {
+            text-align: right;
+            font-style: italic;
         }
         .title {
             text-align: left;
@@ -162,7 +167,7 @@
         .perfil {
             img {
                 width: 100%;
-                height: 200px;
+                height: 120px;
             }
         }
     }
