@@ -66,7 +66,7 @@ export default function Footer() {
                                 <Link to="parceiros" spy={true} smooth={true} duration={1000}>Parceiros de Negócios</Link>
                             </li>
                             <li>
-                                <Link to="contato" spy={true} smooth={true} duration={1000}>Contato</Link>
+                                <Link to="contato" spy={true} smooth={true} duration={1000}>Fique por dentro</Link>
                             </li>
                             <li>
                                 <Link to="solucoes" spy={true} smooth={true} duration={1000}>Soluções</Link>
