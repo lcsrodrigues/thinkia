@@ -59,3 +59,19 @@ export function CardModel04({ pathImg, title, description, signature, office }) 
         </div>
     )
 }
+
+export function CardModel05({ pathImg, title, description }) {
+    return (
+        <div className={style.cardModel05}>
+            <div className={style.head}>
+                <img src={pathImg} alt={"icone"} />
+            </div>
+            <div className={style.title}>
+                <p>{title}</p>
+            </div>
+            <div className={style.description}>
+                <p>{description}</p>
+            </div>
+        </div>
+    )
+}

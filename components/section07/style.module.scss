@@ -1,0 +1,15 @@
+        .processE2E {
+            .title {
+                padding: 0 50px;
+                h1 {
+                    color: #0057B8;
+                }
+            }
+            .deck {
+                width: calc(100% - 40px);
+                display: flex;
+                border-radius: 8px;
+                background-color: #EFEFF0;
+                margin: 10px 20px;
+            }
+        }
